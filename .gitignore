@@ -1,1 +1,25 @@
+# Secrets and credentials
+.env
+credentials.json
+token.json
+*.key
 
+# Local run output
+logs/
+traces/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Mac and editors
+.DS_Store
+.vscode/
+.idea/
